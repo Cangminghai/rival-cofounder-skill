@@ -25,8 +25,8 @@
 
 ```text
 rival-cofounder-skill/
-├── README.md
+├── agents
 ├── SKILL.md             # 核心系统指令 (System Prompt)，直接复制使用
-└── examples/
-    ├── case-social.md   # 案例：如何拆解一个平庸的社交App想法
-    └── case-saas.md     # 案例：如何收缩一个大而全的SaaS工具
+└── references
+
+
