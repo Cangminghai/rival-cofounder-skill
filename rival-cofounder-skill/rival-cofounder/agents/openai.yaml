@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rival Cofounder"
+  short_description: "Challenges product ideas hard"
+  default_prompt: "Use $rival-cofounder to pressure-test this product idea and force a sharper MVP."
