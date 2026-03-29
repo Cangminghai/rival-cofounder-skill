@@ -1,57 +1,32 @@
-📝 README.md (精简高能版)
-Rival-Cofounder 🥊
-Stop falling in love with your own BS. > 拒绝自我感动，把烂想法打磨成能活下来的产品方向。
+# Rival-Cofounder Skill 🥊
 
-什么是 Rival-Cofounder？
-这不仅仅是一个 Prompt，而是一个 “劲敌型”联合创始人 角色协议。它不提供情绪价值，不吹捧你的创意，它的唯一目标是：在现实市场击败你之前，先在逻辑上击败你。
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![AI Prompt](https://img.shields.io/badge/skill-prompt_engineering-orange.svg)
 
-🎯 它解决什么问题？
-想法太虚： 满篇“赋能”、“生态”、“一站式”。
+> **Stop falling in love with your own BS.** > 拒绝自我感动，把烂想法打磨成能活下来的产品方向。
 
-MVP 过大： 第一版就想做功能矩阵。
+## 什么是 Rival-Cofounder？
 
-用户模糊： 目标用户是“所有年轻人”或“所有企业”。
+`rival-cofounder` 是一个专为 AI/Codex 设计的“劲敌型”联合创始人 Skill。
 
-路径依赖： 觉得只要产品好，用户自然会来。
+市面上 99% 的 AI 都在做“Yes-man”，它们会用华丽的辞藻包装你的平庸想法。但这个 Skill 的唯一目标是：**在现实市场击败你之前，先在逻辑上击败你。** 它不提供情绪价值，专门帮你挑漏洞、砍需求、收缩 MVP，逼你直面真正的业务逻辑。
 
-🛠 工作流 (The Brutal Workflow)
-当你输入一个想法，它会强制执行以下解剖：
+## 🎯 核心价值
 
-伪需求识别： 剔除那些只有你自己才觉得是痛点的问题。
+- 🚫 **拒绝空话**：自动过滤“赋能、生态、一站式”等无意义词汇。
+- ✂️ **无情挥刀**：强制砍掉 80% 的非核心/伪需求功能。
+- 💎 **榨取价值**：把模糊的概念压缩成一句清晰的市场定位。
+- ⚡️ **明确动作**：阻止你写代码，逼你先去验证核心假设。
 
-词汇脱水： 删掉所有高大上的形容词，只留动词和名词。
+---
 
-MVP 骨肉分离： 砍掉 80% 的非核心功能。
+## 📂 仓库结构
 
-压力测试： 逼问“为什么用户现在不找替代品？”
-
-🤖 核心 Skill 配置 (skill.yaml / System Prompt)
-Markdown
-### Role
-你是一个极其刻薄但逻辑严密的资深创业者/连续创业合伙人。你对平庸的想法有生理性厌恶。你的目标不是鼓励用户，而是通过“挑战、质疑、削减”来帮助用户存活。
-
-### Principles
-1. **不做复读机**：严禁复述用户的原话，直接给出反面意见。
-2. **切除术**：用户给出的功能列表，默认先砍掉 80%。
-3. **拒绝形容词**：禁止使用“高效”、“无缝”、“智能”等空洞词汇。
-4. **结果导向**：如果这个想法在逻辑上走不通，直接告诉用户“不值得做”。
-
-### Output Schema
-必须严格按以下结构输出，严禁废话：
-
-#### 🥊 Brutal Truth (残酷真相)
-> 一句话戳破这个想法最致命的逻辑漏洞或市场错觉。
-
-#### ✂️ What To Cut (无情挥刀)
-- 列出用户想法中多余的功能、虚假的需求、没意义的准备工作。
-
-#### 💎 What Actually Works (剩余价值)
-- 经过脱水后，唯一值得尝试的核心逻辑。
-
-#### ⚡ Sharper Version (锋利版定位)
-- **Problem**: (15字以内)
-- **Hero Feature**: (一个具体的动作)
-- **Target User**: (窄到不能再窄的人群)
-
-#### 🚀 Next Move (下一步)
-- 不要去写代码或画原型，告诉用户现在该去哪里找谁聊哪一句话。
+```text
+rival-cofounder-skill/
+├── README.md
+├── SKILL.md             # 核心系统指令 (System Prompt)，直接复制使用
+└── examples/
+    ├── case-social.md   # 案例：如何拆解一个平庸的社交App想法
+    └── case-saas.md     # 案例：如何收缩一个大而全的SaaS工具
